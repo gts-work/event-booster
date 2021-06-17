@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  top: 364px;
+  height: 360px;
+
+  background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+    url('../images/hero/mob/hero-bg.png');
+  background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+    url('../images/hero/mob/hero-bg.webp');
+  background-repeat: no-repeat;
+  background-color: $color-background;
+  background-position: center bottom;
+
+  font-family: 'Montserrat', sans-serif;
+  color: $color-white;
+
+  @media screen and (min-width: $media-tab) {
+    height: 364px;
+
+    background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+      url('../images/hero/tab/hero-bg.png');
+    background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+      url('../images/hero/tab/hero-bg.webp');
+  }
+
+  @media screen and (min-width: $media-desktop) {
+    height: 448px;
+
+    background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+      url('../images/hero/desktop/hero-bg.png');
+    background-image: linear-gradient(to bottom, rgba(11, 11, 11, 0.5), rgba(11, 11, 11, 0.5)),
+      url('../images/hero/desktop/hero-bg.webp');
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+  margin-top: 0;
+
+  letter-spacing: 0.06em;
+  // text-transform: uppercase;
+}
+
+input,
+select {
+  border: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
+}

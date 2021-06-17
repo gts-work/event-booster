@@ -4,5 +4,7 @@
  */
 
 // Стили для файла с примером HTML-фрагмента
-@import "./gallery";
-@import "./basicLightbox";
+@import './utils/variables';
+@import './components/base';
+@import './components/header';
+@import './components/hero';
