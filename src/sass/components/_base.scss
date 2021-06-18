@@ -59,6 +59,19 @@ h6 {
   // text-transform: uppercase;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 input,
 select {
   border: 0;

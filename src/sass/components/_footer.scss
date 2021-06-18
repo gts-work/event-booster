@@ -1,0 +1,37 @@
+.footer {
+  margin-top: 60px;
+  margin-bottom: 27px;
+}
+
+.footer_container {
+  width: 281px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: $media-tab) {
+    min-width: $media-tab;
+  }
+
+  //   @media screen and (min-width: 1280px) {
+  //     @include container(115px, 115px);
+  //   }
+}
+
+.copyright__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: $color-gray;
+}
+
+.emoji-heart {
+  font-size: 10px;
+
+  color: red;
+}
